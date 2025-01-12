@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 
 const Card = ({ image, location, type, price, email }) => {
   return (
@@ -7,6 +7,7 @@ const Card = ({ image, location, type, price, email }) => {
       <div className='relative'>
         <img
           src={image}
+          // src="https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt={location}
           className='w-full h-56 object-cover'
           width={400}
@@ -22,7 +23,7 @@ const Card = ({ image, location, type, price, email }) => {
         <h3 className='text-sm text-gray-600'>{location}</h3>
         <h4 className='text-lg font-semibold'>{type}</h4>
         <p className='text-gray-800 font-medium'>{price} CAD / night</p>
-        <p className='text-gray-600 text-sm top-4 right-2 w-auto px-3 absolute rounded-full font-medium'>{email}</p>
+        <p className='text-gray-600 text-sm top-4 right-2 w-auto rounded-full font-medium'>{email}</p>
         
       </div>
     </div>

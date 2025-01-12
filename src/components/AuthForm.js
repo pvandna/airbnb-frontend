@@ -25,7 +25,7 @@ const AuthForm = () => {
         setMessage(response.data.message);
         console.log("message ", response.data.message);
 
-        route.push('../blog')
+        route.push('../createnewblog')
 
 
       }

@@ -17,10 +17,7 @@ const categories = [
   { icon: <Beachfront />, label: 'Beachfront', category: 'Beachfront' },
   { icon: <Rustic />, label: 'Rustic', category: 'Rustic' },
   { icon: <Cabin />, label: 'Cabin', category: 'Cabin' },
-  { icon: <Modern />, label: 'Modern', category: 'Modern' },
-  { icon: <Mountain />, label: 'Mountain', category: 'Mountain' },
-  { icon: <Beachfront />, label: 'Beachfront', category: 'Beachfront' },
-  { icon: <Rustic />, label: 'Rustic', category: 'Rustic' },
+ 
 
 ];
 

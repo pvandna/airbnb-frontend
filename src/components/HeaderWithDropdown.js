@@ -22,7 +22,7 @@ const HeaderWithDropdown = () => {
             <ul className="py-2">
               
                   <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                    <a href="/login">Sign up / Login</a>
+                    <a href="/login"> Login for creatinf a new blog</a>
                   </li>
                   
              
